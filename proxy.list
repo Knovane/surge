@@ -1,13 +1,14 @@
 # Surge 规则集 proxy.list（无动作版）
 # Surge 引用：RULE-SET,https://raw.githubusercontent.com/qiangyuefeng/sugar/main/proxy.list,节点选择
 DOMAIN-SUFFIX,gmail.com
-DOMAIN,api-siri-prod.apple.com
-DOMAIN,apple-relay.cloudflare.com
+DOMAIN,api-siri-prod.apple.com  # Apple Intelligence
+DOMAIN,apple-relay.cloudflare.com  # Apple Intelligence
+DOMAIN,apple-relay.fastly-edge.com  # Apple Intelligence
 DOMAIN-SUFFIX,whatsapp.net
 DOMAIN,gspe1-ssl.ls.apple.com
-DOMAIN,guzzoni.apple.com
-DOMAIN,apple-relay.apple.com
-DOMAIN,guzzoni.smoot.apple.com
+DOMAIN,guzzoni.apple.com  # Apple Intelligence
+DOMAIN,apple-relay.apple.com  # Apple Intelligence
+DOMAIN,guzzoni.smoot.apple.com  # Apple Intelligence
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,meta.com
