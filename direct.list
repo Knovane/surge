@@ -1,5 +1,5 @@
-# 每行只保留规则类型 + 域名/IP，不带 DIRECT 等动作；IP 开头的规则（IP-CIDR / IP-CIDR6 / GEOIP）保留了 ,no-resolve
-# Surge 引用：RULE-SET,https://raw.githubusercontent.com/Knovane/sugar/main/direct.list,DIRECT
+# Surge 规则集 direct-cleaned.list（无动作版，已去重）
+# Surge 引用：RULE-SET,https://raw.githubusercontent.com/Knovane/surge/main/direct-cleaned.list,DIRECT
 DOMAIN-SUFFIX,qq.com
 DOMAIN,42-courier2.push.apple.com
 DOMAIN-SUFFIX,smartmidea.net
@@ -176,9 +176,6 @@ DOMAIN-SUFFIX,sqpx.org
 DOMAIN-SUFFIX,wsglw.com
 DOMAIN-SUFFIX,wsglw.net
 DOMAIN-SUFFIX,1password.com
-DOMAIN-SUFFIX,acl4.ssr
-DOMAIN-SUFFIX,ip6-localhost
-DOMAIN-SUFFIX,ip6-loopback
 IP-CIDR,10.0.0.0/8,no-resolve
 IP-CIDR,100.64.0.0/10,no-resolve
 IP-CIDR,127.0.0.0/8,no-resolve
@@ -2419,3 +2416,49 @@ GEOIP,CN,no-resolve
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+DOMAIN-SUFFIX,snapdrop.net
+DOMAIN-SUFFIX,tebex.io
+DOMAIN-SUFFIX,alibabachengdun.com
+DOMAIN-SUFFIX,aliyundrive.net
+DOMAIN-SUFFIX,elemecdn.com
+DOMAIN-SUFFIX,tmall.hk
+DOMAIN-SUFFIX,qwen.ai
+DOMAIN-SUFFIX,biliintl.co
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN,config.cmpassport.com
+DOMAIN,log.cmpassport.com
+DOMAIN,log1.cmpassport.com
+DOMAIN-SUFFIX,cmpassport.com
+DOMAIN-SUFFIX,id6.me
+DOMAIN-SUFFIX,mob.com
+DOMAIN-SUFFIX,bytefcdnrd.com
+DOMAIN-SUFFIX,edgesrv.com
+DOMAIN-SUFFIX,epicgames.dev
+DOMAIN-SUFFIX,hihonor.com
+DOMAIN-SUFFIX,allawnfs.com
+DOMAIN-SUFFIX,allawno.com
+DOMAIN-SUFFIX,allawntech.com
+DOMAIN-SUFFIX,coloros.com
+DOMAIN-SUFFIX,heytap.com
+DOMAIN-SUFFIX,heytapcs.com
+DOMAIN-SUFFIX,heytapdownload.com
+DOMAIN-SUFFIX,heytapimage.com
+DOMAIN-SUFFIX,heytapmobi.com
+DOMAIN-SUFFIX,oppo.com
+DOMAIN-SUFFIX,oppoer.me
+DOMAIN-SUFFIX,oppomobile.com
+DOMAIN-SUFFIX,jd.hk
+DOMAIN-SUFFIX,doh.pub
+DOMAIN-SUFFIX,dns.alidns.com
+IP-CIDR,1.12.12.12/32,no-resolve
+DOMAIN-SUFFIX,asklink.com
+DOMAIN-SUFFIX,bosszhipin.com
+DOMAIN-SUFFIX,element-plus.org
+DOMAIN-SUFFIX,koyso.com
+DOMAIN-SUFFIX,oneplus.com
+DOMAIN-SUFFIX,realme.com
+DOMAIN-SUFFIX,vivo.com
+DOMAIN-SUFFIX,xiumi.us
+DOMAIN-SUFFIX,zhipin.com
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,95516.com
