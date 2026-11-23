@@ -2413,9 +2413,6 @@ IP-CIDR,65.199.22.0/23,no-resolve
 DOMAIN-SUFFIX,freebuf.com
 IP-CIDR,169.254.0.0/16,no-resolve
 GEOIP,CN,no-resolve
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 DOMAIN-SUFFIX,snapdrop.net
 DOMAIN-SUFFIX,tebex.io
 DOMAIN-SUFFIX,alibabachengdun.com
